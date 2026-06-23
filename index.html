@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netflix</title>
+  <link rel="stylesheet" href="style.css">
+
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <div class="main">
+    <div class="black_box"></div>
+      <div class="nav_bar">
+        <span class="logo">
+          <img src="assets/logo.svg" height="100%" width="110px">
+        </span>
+        <div class="btn">
+        <div class="lang">
+
+          <div class="lang_symb">文</div>
+
+          <select id="select">
+
+              <option id="op1" value="en">English</option>
+
+              <option id="op2" value="hi">Hindi</option>
+
+          </select>
+        </div>
+
+          <div id="google_translate_element" style="display:none;"></div>
+          <button class="sign">Sign in</button>
+        </div>
+      </div>
+
+    <div class="text_center">
+      <div class="text_box">
+        <span class="line1">Unlimited movies,</span>
+        <span class="line1">shows, and more</span>
+        <span class="line2">Starts at ₹149. Cancel at any time.</span>
+        <span class="line3">Ready to watch? Enter your email to create or restart your membership.</span>
+        <form action="/www.google.com">
+          <div class="input">
+            <input id="email_box" type="email" placeholder="Email address" required>
+            <input id="enter_box" type="submit" value="Get started > ">
+          </div>
+        </form>
+        
+      </div>
+    </div> 
+    
+   
+    
+  </div>
+
+  <!-- After main div class  -->
+
+  <div class="blue_box">
+    <div class="trending">Trending Now</div>
+  </div>
+
+  <!-- this is the movies_content_page -->
+  <div class="content_box">
+    <div class="container1">
+      <div style="background-image: url(assets/pic1.png);"></div>
+      <div style="background-image: url(assets/pic2.jpg);"></div>
+      <div style="background-image: url(assets/pic3.png);"></div>
+      <div style="background-image: url(assets/pic4.png);"></div>
+      <div style="background-image: url(assets/pic5.png);"></div>
+      <div style="background-image: url(assets/pic6.png);"></div>
+      <div style="background-image: url(assets/pic7.png);"></div>
+      <div style="background-image: url(assets/pic8.png);"></div>
+      <div style="background-image: url(assets/pic9.png);"></div>
+    </div>
+    <h2 id="reason">More reasons to join</h2>
+    <div class="container2">
+      <div>
+        <h2>Enjoy your TV</h2>
+        <p>Watch on smart TVs, Playstation,Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+      </div>
+      <div>
+        <h2>Download your shows to watch offline</h2>
+        <p>Save your favourites eaisly and always have something to watch.</p>
+      </div>
+      <div>
+        <h2>Watch everywhere</h2>
+        <p>Stream  unlimited movies and TV shows  on your phone, tablet, laptop, and TV.</p> 
+      </div>
+      <div>
+        <h2>Create profile for kids</h2>
+        <p>Sends kids on adventures with their favourite characters in a space made just for them -- free with your membership.</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="footer">
+    <div class="questions">
+      <h2 id="frequ">Frequently Asked Questions</h2>
+      <div class="q1 q"><p>What is Netflix?</p></div>
+      <div class="q2 q"><p>How much does Netflix cost?</p></div>
+      <div class="q3 q"><p>Where can I watch?</p></div>
+      <div class="q4 q"><p>How do I cancel?</p></div>
+      <div class="q5 q"><p>What can I watch on Netflix?</p></div>
+      <div class="q6 q"><p>Is Netflix good for kids?</p></div>
+    </div>
+    
+    <div class="lower_signin">
+      <p id="ready">Ready to watch? Enter your email to create or restart your membership.</p>
+      <div class="input">
+        <input id="lower_email_box" type="email" placeholder="Email address" required>
+        <input id="enter_box" type="button" value="Get started > ">
+      </div>
+    </div>
+    
+    <p id="call">Questions? call <a id="callno">000-800-919-1743</a></p>
+    <div class="links">
+      <div>
+        <a>FAQ</a>
+        <a>Help Centre</a>
+        <a>Account</a>
+        <a>Media Centre</a>
+      </div>
+      <div>
+        <a>Investor Relations</a>
+        <a>Jobs</a>
+        <a>Ways to Watch</a>
+        <a>Terms of use</a>
+      </div>
+      <div>
+        <a>Privacy</a>
+        <a>Cookie Preferences</a>
+        <a>Corporate Info</a>
+        <a>Contact Us</a>
+      </div>
+      <div>
+        <a>Speed Test</a>
+        <a>Legal Notices</a>
+        <a>Only on Netflix</a>
+      </div>
+    </div>
+
+    <div class="last_line">
+        <button class="lang">
+          <div class="lang_symb">文A</div>
+          <select id="select">
+              <option id="op1" value="en">English</option>
+              <option id="op2" value="hi">Hindi</option>
+            </select>
+        </button>
+        <p>Netflix India</p>
+        <p>This page is protected by Google reCAPTCHA to ensure you're not a bot.</p>
+      </div>
+  </div>
+
+  <!-- <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  <script src="app.js"></script> -->
+</body>
+</html>
